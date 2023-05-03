@@ -1,0 +1,14 @@
+.brilho{
+  text-shadow:
+   0 0 24px #8153cc,
+  0 0 50px #6b10ff,
+  0 0 20px #c706e0;
+}
+
+.bec{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./../../../../public/assets/beck4.png');
+}
+

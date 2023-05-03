@@ -1,0 +1,48 @@
+.neum {
+  border-radius: 0px;
+  background: #490e54;
+  box-shadow: inset -50px 50px 50px #111827, inset 50px -50px 50px #751686;
+}
+.muen {
+  border-radius: 0px;
+  background: #490e54;
+  box-shadow: inset 50px -50px 50px #111827, inset -50px 50px 50px #751686;
+}
+.neum2 {
+  border-radius: 0px;
+  background: #490e54;
+  box-shadow: inset 0px 0px 70px 40px #111827, inset 50px 50px 50px 40px #d251e9;
+}
+.muen2 {
+  border-radius: 0px;
+  background: #490e54;
+  box-shadow: inset 0px 0px 70px 40px #111827,
+    inset -50px -50px 50px 40px #d251e9;
+}
+
+.contee {
+  border-radius: 63px;
+  background: linear-gradient(315deg, #4e0f5a, #420d4c);
+  box-shadow: -31px -31px 62px #210626, 31px 31px 62px #711682;
+}
+
+.conteee {
+  border-radius: 63px;
+  background: linear-gradient(145deg, #4e0f5a, #420d4c);
+  box-shadow: 31px 31px 62px #210626, -31px -31px 62px #711682;
+}
+.conte3 {
+  border-radius: 63px;
+  background: linear-gradient(145deg, #4e0f5a, #420d4c);
+  box-shadow: 31px 31px 62px #210626
+}
+.conte4 {
+  border-radius: 63px;
+  background: linear-gradient(145deg, #fd1cfd, #420d4c);
+  box-shadow: 31px 31px 62px #210626
+}
+.conte5 {
+
+  background: linear-gradient(145deg, #fd1cfd, #420d4c);
+  box-shadow: 31px 31px 62px #210626, -31px -31px 62px #711682;
+}
