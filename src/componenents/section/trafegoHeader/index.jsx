@@ -25,7 +25,7 @@ export default function PageHT() {
             text2={
               'Isso é o algoritmo do Google que um gestor de tráfego manipula para atrair um possivel comprador para um determinado produto'
             }
-            className={'conte3 right-16 flex py-4 sm:py-0 '}
+            className={'conte3 right-16 flex py-8 sm:py-3'}
             className2={''}
           />
         </div>

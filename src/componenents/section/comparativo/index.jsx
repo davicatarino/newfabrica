@@ -16,9 +16,9 @@ export default function Compr() {
       </div>
 
       <div className=" flex flex-col sm:flex-row justify-center gap-16">
-        <ul className="contee  rounded-3xl text-white flex flex-col h-full w-full sm:h-64 sm:w-[45%] list-disc items-center justify-center py-4 px-6">
+        <ul className="contee  rounded-3xl text-white flex flex-col h-full w-full sm:h-64 sm:w-[45%] list-disc items-center justify-center py-4 px-6 h-4">
           <div className="flex flex-row items-baseline">
-            <h2 className="list-none text-3xl mb-4">impulsionamento</h2>
+            <h2 className="list-none text-3xl mb-4">Impulsionamento</h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

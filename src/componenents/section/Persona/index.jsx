@@ -52,7 +52,7 @@ export default function Persona() {
         <div className="text-3xl flex items-center text-yellow-300">
           Profissional com
           <br />
-          certificado google asds
+          certificado google ads
         </div>
       </div>
     </div>

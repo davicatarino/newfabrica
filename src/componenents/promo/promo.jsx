@@ -46,7 +46,7 @@ export default function Promo() {
           >
             <circle cx={1} cy={1} r={1} />
           </svg>
-          tenha uma consultoria gratuida para ganhar autoridade na internet
+          Tenha uma consultoria gratuita para ganhar autoridade na internet
         </p>
         <Link
           to="/teste/Form"

@@ -33,7 +33,7 @@ export default function Grafic() {
           </li>
         </ul>
         <div className=" grid items-center justify-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white my-[50px] sm:mt-[-300px] sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-white my-[50px] sm:mt-[-300px] sm:text-4xl h-2">
             Faça parte disso
           </h2>
         </div>

@@ -12,7 +12,7 @@ export default function PageHW() {
           <Balao
             text={` O WhatsApp Business facilita a interação com os clientes, oferecendo ferramentas para automatizar, classificar e responder rapidamente a mensagens. `}
 
-            className={'conteee right-16 px-14 py-24 flex  '}
+            className={'conte3 right-16 px-14 py-24 flex text-xs '}
             className2={''}
           />
         </div>
