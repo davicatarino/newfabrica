@@ -67,7 +67,7 @@ export default function Marcas() {
           <div className="bg-white rounded-3xl h-16  ">
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src={`${process.env.PUBLIC_URL}/assets/google.png`}
+              src={`${process.env.PUBLIC_URL}/assets/face.png`}
               alt="Reform"
               width={158}
               height={48}
