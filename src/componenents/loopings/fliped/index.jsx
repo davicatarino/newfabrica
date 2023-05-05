@@ -4,30 +4,30 @@ import Title from '../../micros/title';
 import './styles.css'
 const flip = [
   {
-    Ftitle: 'necessidade1',
-    Btitle: 'soluçao1',
-    Ftext: 'necessidade1',
-    Btext: 'soluçao1',
+    Ftitle: 'Quero que conheçam meu produto',
+    Btitle: 'Tráfego pago',
+    Ftext: ' ',
+    Btext: ' Ajuda a Veicular o anúncio do seu Produto pelo Facebook,Instagram ou site do Google trazendo pessoais interessadas no seu produto. ',
   },
   {
-    Ftitle: 'necessidade2',
-    Btitle: 'soluçao2',
-    Ftext: 'necessidade2',
-    Btext: 'soluçao2',
+    Ftitle: 'Quero vender mais',
+    Btitle: ' Website ',
+    Ftext: '',
+    Btext: ' Há vantagens em fazer um Website para facilitar suas vendas, fazer tráfego para veicular esse site e atrair possíveis compradores.',
   },
 ];
 const flip2 = [
   {
-    Ftitle: 'necessidade3',
-    Btitle: 'soluçao3',
-    Ftext: 'necessidade3',
-    Btext: 'soluçao3',
+    Ftitle: 'Sem tempo de lidar com atendimento ao cliente',
+    Btitle: ' WhatsApp Business',
+    Ftext: '',
+    Btext: 'Podemos fazer através do APP do WhatsApp Business, a automação de mensagens , onde o cliente vai te dar todas as informações necessárias sem você trocar mensagens manuais com ele. ',
   },
   {
-    Ftitle: 'necessidade4',
-    Btitle: 'soluçao4',
-    Ftext: 'necessidade4',
-    Btext: 'soluçao4',
+    Ftitle: 'Não tenho loja,instagram ou página de vendas',
+    Btitle: 'Fabricando Digital ',
+    Ftext: ' ',
+    Btext: 'Com os nossos serviços, você adquiri o seu Instagram Profissional, também gerenciamos o mesmo e a Criação de Landing Pages e Sites Autorais , mostrando o seu serviço/produto de maneira Prática e Objetiva',
   },
 ];
 

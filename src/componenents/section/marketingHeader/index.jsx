@@ -24,7 +24,7 @@ export default function PageHM() {
             text2={
               ' Com o objetivo de atrair novas oportunidades, criar relacionamentos e desenvolver seu negócio.'
             }
-            className={'conte3 right-16 flex p-6 '}
+            className={'conte4 right-16 flex p-8 text-center'}
             className2={''}
           />
         </div>

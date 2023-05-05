@@ -6,7 +6,7 @@ export default function Grafic() {
       <Title title={'A importância de ter um website profissional'} />
 
       <div className="sm:grid flex flex-col contee mb-24 sm:grid-cols-2 w-[82%] justify-center h-[100%]  items-center ">
-        <div className=" flex flex-row w-[50%] mt-[50px] sm:ml-32 grow justify-center items-end gap-4 h-96">
+        <div className=" flex flex-row w-[50%] mt-[50px] sm:ml-20 grow justify-center items-end gap-4 h-96">
           <span className="bg-emerald-500   text-white  border-indigo-500 border w-[calc(100%/6)] h-[38%] "></span>
           <span className="bg-blue-400 text-white  border-indigo-500 border w-[calc(100%/6)] h-[80%]"></span>
           <span className="bg-yellow-200 text-white  border-indigo-500 border w-[calc(100%/6)] h-[93%] "></span>
@@ -14,21 +14,21 @@ export default function Grafic() {
         </div>
 
         <ul className="grid-cols-1 list-decimal gap-8 grid h-full mx-auto max-w-md lg:mx-0 lg:flex-auto lg:py-32 lg:text-left ">
-          <li className="text-xl font-normal tracking-tight ml-8 text-white sm:text-xl">
+          <li className="text-xl font-normal tracking-tight ml-8 text-white sm:text-xl ">
             Empresas que possuem um site recebem, em média, 250% mais ligações
-            telefônicas do que aquelas que não têm (Fonte: Google).
+            telefônicas do que as que não possuem um (Fonte: Google).
           </li>
           <li className="text-xl font-normal tracking-tight ml-8 text-white sm:text-xl">
             Cerca de 93% dos consumidores online consideram o website de uma
-            empresa uma importante ferramenta para tomar decisões de compra
+            empresa uma importante ferramenta para tomar decisões para se fazer uma compra
             (Fonte: Econsultancy).
           </li>
           <li className="text-xl font-normal tracking-tight ml-8 text-white sm:text-xl">
             Empresas que possuem um site são 80% mais propensas a crescer do que
-            aquelas que não têm (Fonte: Website Builder).
+            aquelas que não possuem um (Fonte: Website Builder).
           </li>
           <li className="text-xl font-normal tracking-tight ml-8 text-white sm:text-xl">
-            38% dos usuários abandonam um website se o layout e o design não são
+            38% dos usuários acabam abandonando um website pelo layout e o design não serem
             atraentes (Fonte: Adobe).
           </li>
         </ul>

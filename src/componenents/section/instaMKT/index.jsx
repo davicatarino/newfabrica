@@ -3,9 +3,9 @@ import Title from '../../micros/title';
 import './styles.css';
 import Faqq from './../../loopings/faq/faqq';
 const faqs = [
-  { title: 'Marketing digital', content: 'Conteúdo do Card 1' },
-  { title: 'Qual o objetivo?', content: 'Conteúdo do Card 2' },
-  { title: 'Qual a função?', content: 'Conteúdo do Card 3' },
+  { title: 'Marketing digital', content: 'Marketing digital é um conjunto de estratégias de marketing que utilizam canais digitais, como redes sociais, mecanismos de busca, e-mail marketing, publicidade online, entre outros, para promover produtos, serviços ou marcas e estabelecer um relacionamento com o público-alvo.' },
+  { title: 'Qual o objetivo?', content: 'O objetivo do marketing digital é alcançar e engajar consumidores em potencial, criar e fortalecer a presença online de uma marca e, consequentemente, aumentar as vendas e a fidelização dos clientes. Para isso, é necessário desenvolver campanhas criativas, planejar ações de comunicação e criar conteúdo relevante para atrair a atenção e o interesse do público.' },
+  { title: 'Qual a função?', content: 'O gestor de marketing digital é responsável por planejar, implementar e monitorar as estratégias de marketing digital de uma empresa ou organização. Suas funções inclui a definição de estratégia de marketing digital; O gestor de marketing digital deve definir as estratégias e objetivos de marketing digital da empresa, identificar o público-alvo e escolher os canais mais adequados para atingir esses objetivos.' },
 ];
 export default function InstaMKT() {
   return (

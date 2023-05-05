@@ -3,14 +3,14 @@ import Card from './card';
 import Title from '../../micros/title';
 import './styles.css';
 const cards = [
-  { title: 'Tráfego pago', content: 'Conteúdo do Card 1' },
-  { title: 'Topo das pesquisas', content: 'Conteúdo do Card 2' },
-  { title: 'Gestão de mídias sociais', content: 'Conteúdo do Card 3' },
+  { title: 'Tráfego pago', content: 'Tráfego pago é um modelo de publicidade online em que um anunciante paga para que seus anúncios apareçam em plataformas de anúncios na internet, como o Google Ads, Facebook Ads, LinkedIn Ads, entre outras. O tráfego pago é uma forma eficaz de aumentar a visibilidade de uma empresa ou produto na internet, pois permite que os anúncios sejam exibidos para um grande número de pessoas em pouco tempo.' },
+  { title: 'Equipe de Marketing Digital', content: 'O Marketing Digital permite a análise de métricas e resultados em tempo real, o que possibilita a identificação de oportunidades e a melhoria contínua das estratégias de marketing.' },
+  { title: 'Gestão de mídias sociais', content: 'Gestão de mídias sociais é o processo de gerenciar a presença de uma marca ou empresa nas redes sociais, com o objetivo de construir relacionamentos com os seguidores, aumentar o engajamento, promover a marca e direcionar o tráfego para o site da empresa.' },
 ];
 const cards2 = [
-  { title: 'Whatsapp business', content: 'Conteúdo do Card 3' },
-  { title: 'Website moderno', content: 'Conteúdo do Card 3' },
-  { title: 'Apps de gestão', content: 'Conteúdo do Card 3' },
+  { title: 'Whatsapp business', content: 'O WhatsApp Business é uma ferramenta importante para as empresas que desejam melhorar a comunicação com os clientes, oferecer um atendimento ao cliente mais eficiente, personalizar as mensagens de marketing e aumentar as vendas.' },
+  { title: 'Website moderno', content: 'Um website moderno é fundamental para a imagem e sucesso de uma empresa na era digital. Ele ajuda a melhorar a experiência do usuário, aumentar a credibilidade, melhorar o posicionamento nos motores de busca, facilitar a integração com outras plataformas, aumentar a conversão e melhorar a segurança.' },
+  { title: 'Apps de gestão', content: 'Um aplicativo de gestão pode ser usado para gerenciar diversas áreas de uma empresa, como finanças, vendas, estoque, recursos humanos, entre outras.' },
 ];
 export default function Cards() {
   return (
@@ -32,8 +32,8 @@ export default function Cards() {
             </span>
             <img
               alt="pastedImage"
-              src={`${process.env.PUBLIC_URL}/assets/alcance.png`}
-              className="w-[80%] h-[80%] object-contain "
+              src={`${process.env.PUBLIC_URL}/assets/computador.png`}
+              className="w-1920 h-1080 "
             />
           </div>
         </div>
@@ -44,8 +44,8 @@ export default function Cards() {
             </span>
             <img
               alt="pastedImage"
-              src={`${process.env.PUBLIC_URL}/assets/desempenho.png`}
-              className="w-[70%] h-[70%] object-contain "
+              src={`${process.env.PUBLIC_URL}/assets/nave.png`}
+              className="w-1920 h-1080 "
             />
           </div>
           {cards.map((card, index) => (
