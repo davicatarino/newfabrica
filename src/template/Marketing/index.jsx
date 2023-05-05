@@ -4,7 +4,7 @@ import Promo from '../../componenents/promo/promo';
 import PageHM from '../../componenents/section/marketingHeader';
 import FaqMKT from '../../componenents/section/imgTopicMKT';
 import InstaMKT from '../../componenents/section/instaMKT';
-
+import Flutuante from '../../componenents/micros/flutter';
 export default function Marketing() {
   return (
     <div className="App  ">
@@ -14,6 +14,7 @@ export default function Marketing() {
       <InstaMKT/>
       <FaqMKT />
       <Footer />
+      <Flutuante />
     </div>
   );
 }

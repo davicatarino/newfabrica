@@ -6,7 +6,7 @@ import Compr from '../../componenents/section/comparativo';
 import Faq from '../../componenents/loopings/faq';
 import PageHT from '../../componenents/section/trafegoHeader';
 import Persona from '../../componenents/section/Persona';
-
+import Flutuante from '../../componenents/micros/flutter';
 export default function Trafego() {
   return (
     <div className="App  ">
@@ -18,6 +18,7 @@ export default function Trafego() {
       <Faq />
       <Persona />
       <Footer />
+      <Flutuante />
     </div>
   );
 }
