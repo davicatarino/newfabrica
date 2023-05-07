@@ -20,9 +20,9 @@ export default function ImgTopicsMKT() {
           <img
             src={`${process.env.PUBLIC_URL}/assets/insta.png`}
             alt=""
-            className="w-[30%] sm:p-16 h-[90%]"
+            className=" w-[30%] sm:p-16 h-[90%]"
           />{' '}
-          <div className="flex flex-col justify-center px-10 ">
+          <div className="flex flex-col justify-center px-10">
             <Light title={'Marketing para o seu instagram '} className={'w-[90%]'}/>
             <Topicos topics={topics} className={' w-[100%] sm:w-[130%]  sm:pr-96 ]'} />
           </div>

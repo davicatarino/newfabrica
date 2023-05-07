@@ -7,12 +7,12 @@ export default function PageHW() {
     <section className="muen">
       <div className=" flex flex-col justify-center sm:grid sm:grid-cols-2 px-10 py-24 h-full sm:h-[600px]  sm:py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <Title title={'Gestão whatsApp business  '} />
+          <Title title={'Gestão WhatsApp Business  '} />
 
           <Balao
             text={` O WhatsApp Business facilita a interação com os clientes, oferecendo ferramentas para automatizar, classificar e responder rapidamente a mensagens. `}
 
-            className={'conte3 right-16 px-14 py-24 flex text-xs '}
+            className={'conte4 right-16 px-14 py-24 flex text-xs text-center'}
             className2={''}
           />
         </div>

@@ -17,15 +17,15 @@ export default function PageHT() {
           />
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <Light title={'você na frente da pessoa certa '} />
+          <Light title={'Você na frente da pessoa certa '} />
           <Title title={'O que é tráfego pago  '} />
 
           <Balao
-            text={` Já se perguntou porque após  uma pesquisa no google você começa a receber noticias e anuncios sobre o que voce pesquisou?  Isso é o algoritmo do Google que um gestor de tráfego manipula para atrair um possivel comprador para um determinado produto `}
+            text={` Já se perguntou porque após uma pesquisa no google você começa a receber noticias e anuncios sobre o que voce pesquisou? Isso é o algoritmo do Google que um gestor de tráfego manipula para atrair um possivel comprador para um determinado produto `}
             text2={
               'Isso é o algoritmo do Google que um gestor de tráfego manipula para atrair um possivel comprador para um determinado produto'
             }
-            className={'conte3 right-16 flex py-8 sm:py-3'}
+            className={'conte4 right-16 flex py-8 sm:py-3 text-center'}
             className2={''}
           />
         </div>
