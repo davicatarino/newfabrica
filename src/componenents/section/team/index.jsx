@@ -3,28 +3,27 @@ const people = [
     name: 'Monique maia catarino',
     role: 'Fundadora / CEO',
     imageUrl:
-    `${process.env.PUBLIC_URL}/assets/nikki.JPG`,
+    `${process.env.PUBLIC_URL}/assets/nikki.jpg`,
   },
   {
     name: 'Savana',
     role: 'administradora',
     imageUrl:
-    `${process.env.PUBLIC_URL}/assets/savana.JPG`,
+    `${process.env.PUBLIC_URL}/assets/savana.jpg`,
   },
   {
     name: 'Davi catarino',
     role: 'Gestor de T.I / Desenvolvedor',
     imageUrl:
-    `${process.env.PUBLIC_URL}/assets/davi.JPG`,
+    `${process.env.PUBLIC_URL}/assets/davi.jpg`,
   },
   {
     name: 'André  maia',
     role: 'Gestor de tráfego ',
-    imageUrl: `${process.env.PUBLIC_URL}/assets/andre.JPG`,
+    imageUrl: `${process.env.PUBLIC_URL}/assets/andre.jpg`,
   },
   // More people...
 ];
-
 export default function Team() {
   return (
     <div className="bg-fuchsia-950 py-24 sm:py-32">

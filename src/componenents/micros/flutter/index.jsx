@@ -13,7 +13,7 @@ export default function Flutuante() {
           rel="noreferrer"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/assets/iconzap.PNG`}
+            src={`${process.env.PUBLIC_URL}/assets/iconzap.png`}
             alt="fale conosco pelo Whatsapp"
             title="fale conosco pelo Whatsapp"
           />
@@ -27,13 +27,12 @@ export default function Flutuante() {
           rel="noreferrer"
         >
           <img
-            src={`${process.env.PUBLIC_URL}/assets/insta.PNG`}
+            src={`${process.env.PUBLIC_URL}/assets/insta.png`}
             alt="fale conosco pelo Whatsapp"
             title="fale conosco pelo Whatsapp"
           />
         </a>
       </div>
-
     </div>
   );
 }
