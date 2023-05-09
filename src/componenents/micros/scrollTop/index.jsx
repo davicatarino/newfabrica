@@ -1,42 +1,64 @@
-import React, { useState, useEffect } from "react";
+import { useEffect, useState } from 'react';
 
-const ScrollButton = () => {
+export default function ScrollTop() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Mostra ou oculta o botão dependendo do scroll
-  const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  // Adiciona um listener para o scroll quando o componente é montado
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
+    const handleScroll = () => {
+      if (window.pageYOffset > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
-      window.removeEventListener("scroll", toggleVisibility);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  // Faz o scroll para o topo da página
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    const scrollToTop = window.setInterval(() => {
+      const position = window.pageYOffset;
+      if (position > 0) {
+        window.scrollTo(0, position - 50);
+      } else {
+        window.clearInterval(scrollToTop);
+      }
+    }, 16);
   };
 
   return (
-    <div className="scroll-to-top">
+    <div>
       {isVisible && (
-        <button onClick={scrollToTop} className="btn">
-          <i className="fas fa-arrow-up"></i>
-        </button>
+        <div className=" ">
+          <div
+            className="bg-white fixed rounded-full w-[40px] h-[40px] bottom-[30px] left-[30px] flex items-center justify-center content-center"
+            onClick={scrollToTop}
+          >
+            <div className="fixed rounded-full w-[40px] h-[40px] bottom-[120px] left-[30px]">
+              <p className="text-white">voltar ao topo</p>
+            </div>
+            <div className="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
-};
-
-export default ScrollButton;
+}

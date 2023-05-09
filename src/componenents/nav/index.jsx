@@ -18,7 +18,7 @@ export default function Nav() {
           </Link>
         </div>
         <div className="flex lg:hidden">
-          <button type="button" className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(true)}>
+          <button type="button" className=" inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" onClick={() => setMobileMenuOpen(true)}>
             <span className="sr-only">Open main menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
@@ -48,9 +48,9 @@ export default function Nav() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-fuchsia-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="/" className="-m-1.5 p-1.5">
+            <Link to="/teste" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img src={`${process.env.PUBLIC_URL}/../../../assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
+              <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
             </Link>
             <button
               type="button"

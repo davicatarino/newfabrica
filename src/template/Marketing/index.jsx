@@ -5,6 +5,7 @@ import PageHM from '../../componenents/section/marketingHeader';
 import FaqMKT from '../../componenents/section/imgTopicMKT';
 import InstaMKT from '../../componenents/section/instaMKT';
 import Flutuante from '../../componenents/micros/flutter';
+import ScrollTop from '../../componenents/micros/scrollTop';
 export default function Marketing() {
   return (
     <div className="App  ">
@@ -15,6 +16,7 @@ export default function Marketing() {
       <FaqMKT />
       <Footer />
       <Flutuante />
+      <ScrollTop/>
     </div>
   );
 }

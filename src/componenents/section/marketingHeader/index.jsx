@@ -9,7 +9,7 @@ export default function PageHM() {
         <div className="grid items-center justify-center ">
           <ImgB
             img={'marketing'}
-            className={'left-0 top-0 mt-10 sm:mt-0 w-[160%] sm:w-[37rem] max-w-none rounded-md'}
+            className={'left-0 top-0 mt-10 sm:mt-0 w-[120%] sm:w-[37rem] max-w-none rounded-md'}
             className2={
               'absolute blur-3xl mt-10 w-[80%] h-[25%] sm:mt-0 sm:left-56 sm:w-[30%] sm:h-[50%] bg-violet-700 rounded-full'
             }

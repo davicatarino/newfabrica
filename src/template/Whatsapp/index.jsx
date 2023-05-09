@@ -5,6 +5,7 @@ import Flutuante from '../../componenents/micros/flutter';
 import PageHW from '../../componenents/section/whatsappHeader';
 import ImgTopics from '../../componenents/section/imgTopics';
 import Vantagens from '../../componenents/section/vantagens';
+import ScrollTop from '../../componenents/micros/scrollTop';
 export default function Whatsapp() {
   return (
     <div className="App  ">
@@ -15,6 +16,7 @@ export default function Whatsapp() {
       <ImgTopics />
       <Footer />
       <Flutuante/>
+      <ScrollTop/>
     </div>
   );
 }
