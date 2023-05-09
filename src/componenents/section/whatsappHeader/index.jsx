@@ -18,11 +18,11 @@ export default function PageHW() {
         </div>
         <div className="grid items-center justify-center ">
           <ImgB
-            img={'telefone'}
-            classImg={'w-[80%]'}
-            className={'left-12 top-0 mt-24 sm:mt-0 w-[140%] sm:w-[37rem] max-w-none rounded-md'}
+            img={'tele'}
+            classImg={'w-6000 h-3375'}
+            className={'left-8 top-15 mt-24 sm:mt-0 w-[140%] sm:w-[37rem] max-w-none rounded-md'}
             className2={
-              'absolute blur-3xl right-0 mt-20 sm:mt-0  sm:right-48 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] bg-[#4da813] rounded-full'
+              'absolute blur-3xl right-0 mt-20 sm:mt-0 sm:right-20 w-[300px] h-[300px] sm:w-[500px] sm:h-[500px] bg-[#4da813] rounded-full'
             }
           />
         </div>

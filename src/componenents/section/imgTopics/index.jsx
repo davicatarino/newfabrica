@@ -20,13 +20,9 @@ export default function ImgTopics() {
     <section className="neum">
       <div className=" w-[100%] h-[100%]  flex z-1 items-center py-[46px] sm:px-[100px] px-[20px] flex-col ">
         <Title title={'Como funciona nosso trabalho de gestão? '} />
-        <div className="flex flex-col sm:flex-row gap-20">
+        <div className="flex flex-col sm:flex-row gap-100 ">
           <div className="flex items-center">
-            <img
-              src={`${process.env.PUBLIC_URL}/assets/wpp.png`}
-              alt=""
-              className="w-[190%] h-[90%]"
-            />
+
           </div>
           <Topicos topics={topics} />
         </div>
