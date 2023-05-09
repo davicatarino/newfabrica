@@ -61,7 +61,7 @@ export default function Alert() {
                     <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
                       <div className="text-base font-semibold leading-6 text-white">
                         <Light
-                          title={'Aumente sua vendas e seja DIGITAL agora!'}
+                          title={'Aumente suas vendas e seja DIGITAL agora!'}
                           className={'items-start'}
                           className2={
                             'text-start text-base font-semibold leading-6'
@@ -70,7 +70,7 @@ export default function Alert() {
                       </div>
                       <div className="mt-2">
                         <p className="text-base text-white">
-                          você pode agente imediatamente um diagnóstico de negócio.
+                          você pode agendar imediatamente um diagnóstico de negócio.
                         </p>
                       </div>
                     </div>

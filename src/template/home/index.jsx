@@ -12,17 +12,15 @@ export default function Home() {
   return (
     <div className="App">
       <Promo />
-      <Nav/>
-      <Alert/>
-      <Header/>
+      <Nav />
+      <Alert />
+      <Header />
       <Cards />
       <Fliper />
-      <Team/>
+      <Team />
       <Carousel />
-      <Footer/>
-      <Flutuante />
+      <Footer />
+      <Flutuante></Flutuante>
     </div>
   );
 }
-
-
