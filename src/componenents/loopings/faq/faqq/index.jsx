@@ -54,7 +54,7 @@ export default function Faqq({ title, content }) {
           isOpen ? 'h-full opacity-100 ' : 'max-h-0 opacity-0 overflow-hidden'
         }`}
       >
-        <div className="font-sans leading-6 text-base text-white">
+        <div className="font-sans leading-6 text-base text-white ">
           {content}
         </div>
       </div>

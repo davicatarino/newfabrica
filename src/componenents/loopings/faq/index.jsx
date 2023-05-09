@@ -6,7 +6,6 @@ const faqs = [
   { title: 'Quem é dono das contas de anúncios?', content: 'A empresa/contratante sempre' },
   { title: 'Quem faz o anúncio?', content: 'A empresa/equipe de marketing da empresa' },
   { title: 'Quando eu pago pelo anúncio?', content: 'O valor direcionado ao orçamento da campanha é debitado quando clicarem no seu anúncio, você não gasta até verem seu anúncio' },
-  { title: 'Cliente tem que dar Email e senha da plataforma ou conta Instagram para o gestor?', content: 'Não, você só irá liberar dentro da plataforma o acesso ao anunciante' },
   { title: 'Como eu fico no topo do Google ?  ', content: 'O tráfego ele possibilita atrair o seu público ideal e mostrar para quem realmente quer ver o seu site . Com a boa veiculação de anúncio pelo gestor de tráfego, o seu anúncio dispara para o topo atraindo mais cliques é mais conversões' },
 ];
 export default function Faq() {
