@@ -70,20 +70,22 @@ export default function Alert() {
                       </div>
                       <div className="mt-2">
                         <p className="text-base text-white">
-                          você pode agendar imediatamente um diagnóstico de negócio.
+                          você pode agendar imediatamente um diagnóstico de
+                          negócio.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className=" px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-                  <button
-                    type="button"
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=5521979762621&text&type=phone_number&app_absent=0"
                     className="inline-flex w-full justify-center rounded-md bg-green-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
-                    onClick={() => setOpen(false)}
+                    onClick={() => setOpen(false)} target='_blank' rel="noreferrer"
                   >
                     fale conosco
-                  </button>
+                  </a>
+
                   <button
                     type="button"
                     className="mt-3 inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
