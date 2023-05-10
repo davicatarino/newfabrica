@@ -1,11 +1,10 @@
-
 .whats {
   position: fixed;
   width: 80px;
   height: 60px;
-  bottom: 1px;
+  bottom: 30px;
   right: 10px;
-  z-index: 9999;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -14,7 +13,7 @@
 
 .whats::before,
 .whats::after {
-  content:'' ;
+
   display: block;
   position: absolute;
   border-radius: 50%;
@@ -30,9 +29,9 @@
   position: fixed;
   width: 80px;
   height: 120px;
-  bottom: 60px;
+  bottom: 90px;
   right: 10px;
-  z-index: 9999;
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -41,7 +40,7 @@
 
 .insta::before,
 .insta::after {
-  content:'' ;
+
   display: block;
   position: absolute;
   border-radius: 50%;
@@ -54,15 +53,16 @@
   opacity: 0;
 }
 
-
 @media (max-width: 767px) {
-.insta{
-  width: 60px;
-  height: 100px;
-  margin-bottom: 10px;
-}
-.whats{
-  width: 60px;
-  height: 100px;
-}
+  .insta {
+    width: 60px;
+    height: 100px;
+    margin-bottom: 10px;
+    bottom: 60px;
+  }
+  .whats {
+    width: 60px;
+    height: 100px;
+    bottom: 1px;
+  }
 }

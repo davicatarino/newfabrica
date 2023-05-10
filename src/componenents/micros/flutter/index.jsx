@@ -8,7 +8,7 @@ export default function Flutuante() {
       <div className="whats">
         <a
           href="https://api.whatsapp.com/send/?phone=5521979762621&text&type=phone_number&app_absent=0"
-          className="z-[999]"
+          className="z-[9999]"
           target="_blank"
           rel="noreferrer"
         >
@@ -22,14 +22,14 @@ export default function Flutuante() {
       <div className="insta">
         <a
           href="https://instagram.com/fabricandodigital?igshid=NTc4MTIwNjQ2YQ=="
-          className="z-[999]"
+
           target="_blank"
           rel="noreferrer"
         >
           <img
             src={`${process.env.PUBLIC_URL}/assets/insta.png`}
-            alt="fale conosco pelo Whatsapp"
-            title="fale conosco pelo Whatsapp"
+            alt="fale conosco pelo instagram"
+            title="fale conosco pelo instagram"
           />
         </a>
       </div>
