@@ -5,12 +5,12 @@ export default function Card({ title, content }) {
 
   return (
     <div
-      className={`flex-1 h-full flex relative self-stretch px-6 pt-8 flex-col bg-fuchsia-900  hover:border hover:border-fuchsia-600 hover:shadow-md hover:shadow-violet-900
+      className={`flex-1 h-full flex relative self-stretch px-6 py-4 flex-col bg-fuchsia-900  hover:border hover:border-fuchsia-600 hover:shadow-md hover:shadow-violet-900
       ${isOpen ? 'rounded-3xl ' : 'rounded-3xl'}`}
       onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex-row flex">
-        <div className="font-sans text-lg font-bold leading-9 mb-4 text-white">
+      <div className="flex-row flex align-center">
+        <div className="font-sans  text-lg font-medium leading-9  text-white">
           {title}
         </div>
         <div className="ml-auto">

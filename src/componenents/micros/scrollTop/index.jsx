@@ -34,10 +34,10 @@ export default function ScrollTop() {
       {isVisible && (
         <div className=" ">
           <div
-            className="bg-white fixed rounded-full w-[40px] h-[40px] bottom-[30px] left-[30px] flex items-center justify-center content-center"
+            className="bg-white fixed rounded-full w-[40px] h-[40px] bottom-[30px] left-[10px] flex items-center justify-center content-center"
             onClick={scrollToTop}
           >
-            <div className="fixed rounded-full w-[40px] h-[40px] bottom-[120px] left-[30px]">
+            <div className="fixed rounded-full w-[40px] h-[40px] bottom-[120px] left-[10px]">
               <p className="text-white">voltar ao topo</p>
             </div>
             <div className="">

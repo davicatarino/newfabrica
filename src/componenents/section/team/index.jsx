@@ -1,24 +1,24 @@
 const people = [
   {
-    name: 'Monique maia catarino',
+    name: 'Monique Maia Catarino',
     role: 'Fundadora / CEO',
     imageUrl:
     `${process.env.PUBLIC_URL}/assets/nikki.jpg`,
   },
   {
-    name: 'Savana',
-    role: 'administradora',
+    name: 'Savana Dias',
+    role: 'Administradora',
     imageUrl:
     `${process.env.PUBLIC_URL}/assets/savana.jpg`,
   },
   {
-    name: 'Davi catarino',
+    name: 'Davi Catarino',
     role: 'Gestor de T.I / Desenvolvedor',
     imageUrl:
     `${process.env.PUBLIC_URL}/assets/davi.jpg`,
   },
   {
-    name: 'André  maia',
+    name: 'André  Maia',
     role: 'Gestor de tráfego ',
     imageUrl: `${process.env.PUBLIC_URL}/assets/andre.jpg`,
   },

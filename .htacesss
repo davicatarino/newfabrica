@@ -2,3 +2,26 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://fabricandoodigital.com.br/$1 [R,L]
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/logopng.png" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Agência de marketing especializada
+    " />
+    <link rel="apple-touch-icon" href="./assets/logopng.png" />
+    <link rel="manifest" href="/teste/manifest.json" />
+    <title>Fabricando Digital</title>
+    <script defer="defer" src="/teste/static/js/main.16eed68e.js"></script>
+    <link href="/teste/static/css/main.aaae5dfc.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+
+</html>
