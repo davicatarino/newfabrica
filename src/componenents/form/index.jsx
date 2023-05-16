@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import { Switch } from '@headlessui/react';
+import { Link } from 'react-router-dom';
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -10,7 +11,7 @@ export default function Formm() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className=" bg-fundo px-6 py-24 sm:py-32 lg:px-8">
+    <div className=" bg-fundo bg-cover px-6 py-24 sm:py-32 lg:px-8">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true"
@@ -32,45 +33,35 @@ export default function Formm() {
         </p>
       </div>
       <form
-        action="#"
+        action={'https://api.staticforms.xyz/submit'}
         method="POST"
         className="mx-auto mt-16 max-w-xl sm:mt-20"
       >
+        <input
+          type="hidden"
+          name="accessKey"
+          value="2da0e773-8237-48b8-b4fe-6cfd7fe4acb4"
+        ></input>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label
-              htmlFor="first-name"
+              htmlFor="name"
               className="block text-sm font-semibold leading-6 text-white"
             >
               Nome
             </label>
             <div className="mt-2.5">
               <input
+                required
                 type="text"
-                name="first-name"
-                id="first-name"
+                name="name"
+                id="name"
                 autoComplete="given-name"
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
-          <div>
-            <label
-              htmlFor="last-name"
-              className="block text-sm font-semibold leading-6 text-white"
-            >
-              Sobrenome
-            </label>
-            <div className="mt-2.5">
-              <input
-                type="text"
-                name="last-name"
-                id="last-name"
-                autoComplete="family-name"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-            </div>
-          </div>
+
           <div className="sm:col-span-2">
             <label
               htmlFor="company"
@@ -80,8 +71,9 @@ export default function Formm() {
             </label>
             <div className="mt-2.5">
               <input
+                required
                 type="text"
-                name="company"
+                name="$company"
                 id="company"
                 autoComplete="organization"
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -97,8 +89,9 @@ export default function Formm() {
             </label>
             <div className="mt-2.5">
               <input
+                required
                 type="email"
-                name="email"
+                name="$email"
                 id="email"
                 autoComplete="email"
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -107,34 +100,38 @@ export default function Formm() {
           </div>
           <div className="sm:col-span-2">
             <label
-              htmlFor="phone-number"
+              htmlFor="tel"
               className="block text-sm font-semibold leading-6 text-white"
             >
               Número de telefone
             </label>
-            <div className="relative mt-2.5">
+            <div className=" mt-2.5">
               <input
+                placeholder=" XX 9XXXX-XXXX"
+                required
                 type="tel"
-                name="phone-number"
-                id="phone-number"
+                name="$tel"
+                id="tel"
                 autoComplete="tel"
-                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2  text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
           <div className="sm:col-span-2">
             <label
-              htmlFor="phone-number"
+              htmlFor="instagram"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Instagram
+              Instagram da empresa
             </label>
             <div className="relative mt-2.5">
               <input
+                placeholder="seu @"
+                required
                 type="text"
-                name="instar"
+                name="$insta"
                 id="insta"
-                className="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 px-3.5 py-2  text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -143,7 +140,7 @@ export default function Formm() {
               htmlFor="message"
               className="block text-sm font-semibold leading-6 text-white"
             >
-              Message
+              Mensagem
             </label>
             <div className="mt-2.5">
               <textarea
@@ -152,10 +149,28 @@ export default function Formm() {
                 rows={4}
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 defaultValue={''}
+                placeholder="digite sua mensagem"
               />
             </div>
           </div>
           <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
+            <div>
+              {agreed ? (
+                <input
+                  value={'quer receber novidades'}
+                  type="hidden"
+                  name="$check"
+                  id="check"
+                />
+              ) : (
+                <input
+                  value={'não quer receber novidades'}
+                  type="hidden"
+                  name="$check"
+                  id="check"
+                />
+              )}
+            </div>
             <div className="flex h-6 items-center">
               <Switch
                 checked={agreed}
@@ -165,7 +180,6 @@ export default function Formm() {
                   'flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-white/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600',
                 )}
               >
-                <span className="sr-only">Agree to policies</span>
                 <span
                   aria-hidden="true"
                   className={classNames(
@@ -175,18 +189,24 @@ export default function Formm() {
                 />
               </Switch>
             </div>
+
             <Switch.Label className="text-sm leading-6 text-white">
               Quero receber novidades por email.
-
             </Switch.Label>
           </Switch.Group>
         </div>
         <div className="mt-10">
+          <input
+            type="hidden"
+            name="redirectTo"
+            value="https://fabricandoodigital.com.br/Thankss"
+          />
           <button
             type="submit"
+            value="Submit"
             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+            enviar
           </button>
         </div>
       </form>

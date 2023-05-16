@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         fundo: "url('/public/assets/fundo.webp')",
+        fundo2: "url('/public/assets/fundo.jpg')",
       }),
       colors: {
         roxo: '#bf21ac',

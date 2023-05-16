@@ -14,7 +14,7 @@
 
 .whats::before,
 .whats::after {
-  content:'' ;
+
   display: block;
   position: absolute;
   border-radius: 50%;
@@ -41,7 +41,7 @@
 
 .insta::before,
 .insta::after {
-  content:'' ;
+
   display: block;
   position: absolute;
   border-radius: 50%;
