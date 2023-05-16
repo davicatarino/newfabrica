@@ -7,7 +7,7 @@ const flip = [
     Ftitle: 'Quero que conheçam meu produto',
     Btitle: 'Tráfego pago',
     Ftext: ' ',
-    Btext: ' Ajuda a Veicular o anúncio do seu Produto pelo Facebook,Instagram ou site do Google trazendo pessoais interessadas no seu produto. ',
+    Btext: ' Ajuda a Veicular o anúncio do seu Produto pelo Facebook,Instagram ou site do Google trazendo pessoas interessadas no seu produto. ',
   },
   {
     Ftitle: 'Quero vender mais',
@@ -21,10 +21,10 @@ const flip2 = [
     Ftitle: 'Sem tempo de lidar com atendimento ao cliente',
     Btitle: ' WhatsApp Business',
     Ftext: '',
-    Btext: 'Podemos fazer através do APP do WhatsApp Business, a automação de mensagens , onde o cliente vai te dar todas as informações necessárias sem você trocar mensagens manuais com ele. ',
+    Btext: 'Podemos fazer através do APP do WhatsApp Business, a automação de mensagens, onde o cliente vai te dar todas as informações necessárias sem você trocar mensagens manuais com ele. ',
   },
   {
-    Ftitle: 'Não tenho loja,instagram ou página de vendas',
+    Ftitle: 'Não tenho loja, instagram ou página de vendas',
     Btitle: 'Fabricando Digital ',
     Ftext: ' ',
     Btext: 'Com os nossos serviços, você adquiri o seu Instagram Profissional, também gerenciamos o mesmo e a Criação de Landing Pages e Sites Autorais , mostrando o seu serviço/produto de maneira Prática e Objetiva',

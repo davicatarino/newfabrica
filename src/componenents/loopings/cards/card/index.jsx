@@ -5,16 +5,12 @@ export default function Card({ title, content }) {
 
   return (
     <div
-      className={`flex-1 h-full flex relative self-stretch px-6 pt-8 flex-col bg-fuchsia-900  hover:border hover:border-fuchsia-600 hover:shadow-md hover:shadow-violet-900
-      ${
-        isOpen
-          ? 'rounded-3xl '
-          : 'rounded-3xl'
-      }`}
+      className={`flex-1 h-full flex relative self-stretch px-6 py-4 flex-col bg-fuchsia-900  hover:border hover:border-fuchsia-600 hover:shadow-md hover:shadow-violet-900
+      ${isOpen ? 'rounded-3xl ' : 'rounded-3xl'}`}
       onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex-row flex">
-        <div className="font-sans text-lg font-bold leading-9 mb-4 text-white">
+      <div className="flex-row flex align-center">
+        <div className="font-sans  text-lg font-medium leading-9  text-white">
           {title}
         </div>
         <div className="ml-auto">
@@ -60,14 +56,9 @@ export default function Card({ title, content }) {
             : 'max-h-0   opacity-0 overflow-hidden'
         }`}
       >
-        <div className="font-sans leading-6 text-base text-white rounded-0">
+        <div className="font-sans leading-6 pb-3 text-base text-white rounded-0">
           {content}
         </div>
-        <a href="whatsapp.html">
-          <div className="mt-4 px-8 py-4 mb-12 rounded-full flex-col bg-black items-center flex cursor-pointer text-white hover:shadow-md hover:opacity-75">
-            <span className="text-base font-bold">SAIBA MAIS!</span>
-          </div>
-        </a>
       </div>
     </div>
   );

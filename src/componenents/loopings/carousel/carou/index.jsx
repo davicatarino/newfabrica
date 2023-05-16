@@ -8,10 +8,10 @@ const Carou = ({ index, onClick }) => {
 
   return (
     <div
-      className="relative left-16 w-full h-full"
+      className=" left-16 w-full h-full"
       onClick={() => onClick && onClick(index)}
     >
-      <div className="hidden sm:block">
+      <div className="relative hidden sm:block">
         <img
           src={`${process.env.PUBLIC_URL}/assets/tela.png`}
           alt="tela"
@@ -26,18 +26,14 @@ const Carou = ({ index, onClick }) => {
           className="absolute inset-0 m-auto  bottom-12 left-12 right-4  pl-0 pr-14"
         />
       </div>
-      <div className="sm:hidden w-full h-full">
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/celular.png`}
-          alt="celular"
-          className="object-cover w-[360px] max-w-[230%] right-[88px]  bg-no-repeat relative h-full "
-        />
+      <div className="sm:hidden w-full h-full flex content-center mr-20 ">
+
         <iframe
           title={websites[index].title}
           src={websites[index].url}
-          width="90%"
-          height="95%"
-          className="absolute inset-0 m-auto bottom-8 left-0 pt-8 pl-0 pr-0 mr-20 "
+          width="360px"
+          height="600px"
+
         />
       </div>
     </div>

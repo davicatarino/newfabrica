@@ -7,6 +7,7 @@ import Footer from '../../componenents/footer';
 import Nav from '../../componenents/nav';
 import Header from '../../componenents/section/header';
 import Flutuante from '../../componenents/micros/flutter';
+import ScrollTop from '../../componenents/micros/scrollTop';
 import Alert from '../../componenents/micros/alert';
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       <Team />
       <Carousel />
       <Footer />
-      <Flutuante></Flutuante>
+      <Flutuante/>
+      <ScrollTop/>
     </div>
   );
 }

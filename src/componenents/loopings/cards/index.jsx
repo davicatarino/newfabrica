@@ -20,6 +20,7 @@ export default function Cards() {
         description={
           'Com nossas tecnologias e profissionais especializados fazemos sua empresa decolar nas vendas digitais'
         }
+        className={'italic'}
       />
       <div className="w-[100%] flex max-w-7xl items-center grid-cols-4 sm:flex-row flex-col">
         <div className="gap-[32px] w-[100%] flex items-center mb-[32px] flex-col-reverse sm:flex-col px-[15px]">

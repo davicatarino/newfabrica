@@ -5,6 +5,7 @@ import Flutuante from '../../componenents/micros/flutter';
 import Footer from '../../componenents/footer';
 import WebCont from '../../componenents/section/webCont';
 import './styles.css';
+import ScrollTop from '../../componenents/micros/scrollTop';
 export default function Website() {
   return (
     <div className="App bg-[#111827]">
@@ -14,6 +15,7 @@ export default function Website() {
       <WebCont />
       <Footer />
       <Flutuante />
+      <ScrollTop/>
     </div>
   );
 }
