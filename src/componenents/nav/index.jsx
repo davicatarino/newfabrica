@@ -7,10 +7,10 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-fuchsia-900">
+    <header className="bg-black">
       <nav className="container mx-auto flex justify-between items-center" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link to="/teste" className="-m-1.5 p-1.5">
+          <Link to="/teste" className="-m-0.5 p-1.0">
             <span className="sr-only">Your Company</span>
             <div>
               <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
@@ -39,8 +39,8 @@ export default function Nav() {
 
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/teste/Form" className="text-sm font-semibold leading-6 text-white">
-            Fale conosco <span aria-hidden="true">&rarr;</span>
+          <Link to="/teste/Form" className=" font-semibold leading-8  text-white rounded-full  bg-fuchsia-500">
+             Fale conosco
           </Link>
         </div>
       </nav>

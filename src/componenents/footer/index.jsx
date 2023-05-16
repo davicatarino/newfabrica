@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
 
-    <footer className="bg-fuchsia-900 text-white py-4">
+    <footer className="bg-black text-white py-6">
       <div className="container mx-auto justify-between text-center flex">
         <div>
           <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
