@@ -8,7 +8,7 @@ import Flutuante from '../../componenents/micros/flutter';
 import ScrollTop from '../../componenents/micros/scrollTop';
 export default function Marketing() {
   return (
-    <div className="App  ">
+    <div className="App ">
       <Promo />
       <Nav />
       <PageHM />

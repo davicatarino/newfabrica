@@ -10,7 +10,7 @@ export default function Nav() {
     <header className="bg-fuchsia-900">
       <nav className="container mx-auto flex justify-between items-center" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link to="/teste" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <div>
               <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
@@ -24,22 +24,22 @@ export default function Nav() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <Link to="/teste/Website" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Website" className="text-sm font-semibold leading-6 text-white">
             Websites
           </Link>
-          <Link to="/teste/Marketing" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Marketing" className="text-sm font-semibold leading-6 text-white">
             Marketing digital
           </Link>
-          <Link to="/teste/Trafego" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Trafego" className="text-sm font-semibold leading-6 text-white">
             Tráfego pago
           </Link>
-          <Link to="/teste/Whatsapp" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Whatsapp" className="text-sm font-semibold leading-6 text-white">
             Whatsapp business
           </Link>
 
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/teste/Form" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Form" className="text-sm font-semibold leading-6 text-white">
             Fale conosco <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -48,7 +48,7 @@ export default function Nav() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-fuchsia-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="/teste" className="-m-1.5 p-1.5">
+            <Link to="" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
             </Link>
@@ -64,22 +64,22 @@ export default function Nav() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <Link to="/teste/Website"
+                <Link to="/Website"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Website
                 </Link>
-                <Link to="/teste/Marketing"
+                <Link to="/Marketing"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Marketing Digital
                 </Link>
-                <Link to="/teste/Trafego"
+                <Link to="/Trafego"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Tráfego pago
                 </Link>
-                <Link to="/teste/Whatsapp"
+                <Link to="/Whatsapp"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Whatsapp business
@@ -87,7 +87,7 @@ export default function Nav() {
 
               </div>
               <div className="py-6">
-                <Link to="/teste/Form"
+                <Link to="/Form"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-50"
                 >
                   Fale conosco
