@@ -1,22 +1,22 @@
 .neum {
   border-radius: 0px;
   background: #490e54;
-  box-shadow: inset -50px 50px 50px #111827, inset 50px -50px 50px #751686;
+  box-shadow: inset -50px 50px 50px #000000, inset 50px -50px 50px #751686;
 }
 .muen {
   border-radius: 0px;
   background: #490e54;
-  box-shadow: inset 50px -50px 50px #111827, inset -50px 50px 50px #751686;
+  box-shadow: inset 50px -50px 50px #000000, inset -50px 50px 50px #751686;
 }
 .neum2 {
   border-radius: 0px;
   background: #490e54;
-  box-shadow: inset 0px 0px 70px 40px #111827, inset 50px 50px 50px 40px #d251e9;
+  box-shadow: inset 0px 0px 70px 40px #000000, inset 50px 50px 50px 40px #d251e9;
 }
 .muen2 {
   border-radius: 0px;
   background: #490e54;
-  box-shadow: inset 0px 0px 70px 40px #111827,
+  box-shadow: inset 0px 0px 70px 40px #000000,
     inset -50px -50px 50px 40px #d251e9;
 }
 

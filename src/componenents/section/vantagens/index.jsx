@@ -1,7 +1,7 @@
 import Title from '../../micros/title';
 export default function Vantagens() {
   return (
-    <section className="flex flex-col bg-[#111827] px-10 sm:px-0">
+    <section className="flex flex-col bg-black px-10 sm:px-0">
       <div className="">
         <Title
           title={'Quais são as Vantagens?'}

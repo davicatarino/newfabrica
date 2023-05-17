@@ -10,7 +10,7 @@ const faqs = [
 ];
 export default function Faq() {
   return (
-    <section className="bg-[#111827]">
+    <section className="bg-black">
       <div className=" gap-5 w-[100%] h-[100%] flex z-1 items-center py-[46px] sm:px-[100px] px-[20px] flex-col ">
         <Title
           title={'Perguntas frequentes '}

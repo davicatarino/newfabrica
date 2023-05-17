@@ -2,7 +2,7 @@ import Title from '../title';
 
 export default function Grafic() {
   return (
-    <section className="w-[100%] gap-5 h-[100%] flex z-1 px-5  py-[46px] sm:px-52 items-center flex-col muen2 ">
+    <section className="w-[100%] gap-5 h-[100%] flex z-1 px-5  py-[46px] sm:px-52 items-center flex-col neum2 ">
       <Title title={'A importância de ter um website profissional'} />
 
       <div className="sm:grid flex flex-col contee mb-24 sm:grid-cols-2 w-[100%] justify-center h-[100%]  items-center ">

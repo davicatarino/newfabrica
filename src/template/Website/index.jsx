@@ -8,7 +8,7 @@ import './styles.css';
 import ScrollTop from '../../componenents/micros/scrollTop';
 export default function Website() {
   return (
-    <div className="App bg-[#111827]">
+    <div className="App bg-black">
       <Promo />
       <Nav />
       <Cta />

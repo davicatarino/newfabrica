@@ -3,7 +3,7 @@ import ImgB from '../imgB';
 import './styles.css';
 export default function Cont1({ direction, img, title, desc }) {
   return (
-    <section className="neum2">
+    <section className="muen2">
       <div className="w-[100%] gap-5 h-full flex z-1 items-center justify-center pt-[46px] sm:px-[100px] px-[20px] flex-col  ">
         <Title
           title={'Aumente a Autoridade do Seu Negócio com um Site Profissional'}

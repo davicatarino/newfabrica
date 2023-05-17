@@ -9,7 +9,7 @@ const faqs = [
 ];
 export default function InstaMKT() {
   return (
-    <section className="bg-[#111827] flex items-center justify-center">
+    <section className="bg-black flex items-center justify-center">
       <div className=" w-full sm:w-[60%] h-[100%] flex z-1  py-[46px] sm:px-[100px] px-10 flex-col ">
         <div className="flex  flex-row ">
           <Title

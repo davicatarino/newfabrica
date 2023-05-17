@@ -2,7 +2,7 @@ import './styles.css';
 
 export default function Compr() {
   return (
-    <section className="bg-[#111827] w-full h-full flex flex-col px-6  sm:px-20 py-24 gap-16">
+    <section className="bg-black w-full h-full flex flex-col px-6  sm:px-20 py-24 gap-16">
       <div className="flex flex-row">
         <div className="w-[100%] flex items-center flex-col pb-[1px] justify-end ">
           <span className="text-center text-[#ffffff] text-[50px] font-sans">
