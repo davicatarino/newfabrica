@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.27a25898.css",
-    "main.js": "/static/js/main.a4161a5e.js",
+    "main.css": "/static/css/main.65c7dc6b.css",
+    "main.js": "/static/js/main.3fc31083.js",
     "static/media/fundo.jpg": "/static/media/fundo.6f20b91079c4f41dbffa.jpg",
     "static/media/fundo.webp": "/static/media/fundo.ad046a39e9b371b3e7f6.webp",
+    "static/media/MadelynFill.otf": "/static/media/MadelynFill.d8767894e148d2230e8f.otf",
     "static/media/beck4.png": "/static/media/beck4.855bf9d38e39f6180c1d.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/Alesand-Extra-Bold.otf": "/static/media/Alesand-Extra-Bold.a3d21ba344eaed58c95e.otf",
     "static/media/test4.svg": "/static/media/test4.e7e788e0ebc3f208b837.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/test2.svg": "/static/media/test2.6d52c7f90c2a8ddbee9b.svg",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.27a25898.css.map": "/static/css/main.27a25898.css.map",
-    "main.a4161a5e.js.map": "/static/js/main.a4161a5e.js.map"
+    "main.65c7dc6b.css.map": "/static/css/main.65c7dc6b.css.map",
+    "main.3fc31083.js.map": "/static/js/main.3fc31083.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a25898.css",
-    "static/js/main.a4161a5e.js"
+    "static/css/main.65c7dc6b.css",
+    "static/js/main.3fc31083.js"
   ]
 }
