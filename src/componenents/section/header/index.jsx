@@ -9,7 +9,7 @@ export default function Header() {
             <div className="OBS">
               <Revel>
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/fabricando.PNG`}
+                  src={`${process.env.PUBLIC_URL}/assets/fabricando.png`}
                   alt="pastedImage"
                   className="w-[100%] h-[100%]"
                 />
@@ -18,9 +18,9 @@ export default function Header() {
             <div className="">
               <Revel>
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/digital.PNG`}
+                  src={`${process.env.PUBLIC_URL}/assets/digital.png`}
                   alt="pastedImage"
-                  className="w-[65%] ml-[80px]"
+                  className="w-[65%] h-[100%%] ml-[80px]"
                 />
               </Revel>
             </div>
@@ -35,6 +35,9 @@ export default function Header() {
             </div>
           </Revel>
         </div>
+      </div>
+      <div className="text-center items-center text-6xl pt-20 text-white font-serif">"A sua Empresa de
+      Marketing Digital"
       </div>
     </header>
   );

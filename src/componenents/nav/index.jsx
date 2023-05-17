@@ -7,7 +7,7 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-fuchsia-900">
+    <header className="bg-black">
       <nav className="container mx-auto flex justify-between items-center" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
@@ -39,7 +39,7 @@ export default function Nav() {
 
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link to="/Form" className="text-sm font-semibold leading-6 text-white">
+          <Link to="/Form" className="text-sm font-semibold leading-8 bg-pink-400 rounded-full text-white">
             Fale conosco <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -48,7 +48,7 @@ export default function Nav() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-fuchsia-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link to="" className="-m-1.5 p-1.5">
+            <Link to="" className="-m-0.5 p-1.0">
               <span className="sr-only">Your Company</span>
               <img src={`${process.env.PUBLIC_URL}/assets/logopng.png`} alt="Logo" className="w-[80px] h-[80px]" />
             </Link>
