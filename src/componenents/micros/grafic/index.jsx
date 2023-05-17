@@ -2,10 +2,10 @@ import Title from '../title';
 
 export default function Grafic() {
   return (
-    <section className="w-[100%] h-[100%] flex z-1  py-[46px] sm:px-64 items-center flex-col muen2 ">
+    <section className="w-[100%] gap-5 h-[100%] flex z-1 px-5  py-[46px] sm:px-52 items-center flex-col muen2 ">
       <Title title={'A importância de ter um website profissional'} />
 
-      <div className="sm:grid flex flex-col contee mb-24 sm:grid-cols-2 w-[82%] justify-center h-[100%]  items-center ">
+      <div className="sm:grid flex flex-col contee mb-24 sm:grid-cols-2 w-[100%] justify-center h-[100%]  items-center ">
         <div className=" flex flex-row w-[50%] mt-[50px] sm:ml-20 grow justify-center items-end gap-4 h-96">
           <span className="bg-emerald-500   text-white  border-indigo-500 border w-[calc(100%/6)] h-[38%] "></span>
           <span className="bg-blue-400 text-white  border-indigo-500 border w-[calc(100%/6)] h-[80%]"></span>
@@ -33,7 +33,7 @@ export default function Grafic() {
           </li>
         </ul>
         <div className=" grid items-center justify-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white my-[50px] sm:mt-[-300px] sm:text-4xl h-2">
+          <h2 className="text-3xl font-bold tracking-tight text-white  my-[50px] sm:-mt-[200px] sm:text-4xl ">
             Faça parte disso
           </h2>
         </div>

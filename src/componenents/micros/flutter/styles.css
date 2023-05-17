@@ -1,5 +1,6 @@
 
 .whats {
+  margin-right: 10px ;
   position: fixed;
   width: 80px;
   height: 60px;
@@ -27,6 +28,7 @@
   opacity: 0;
 }
 .insta {
+  margin-right: 10px ;
   position: fixed;
   width: 80px;
   height: 120px;
@@ -57,14 +59,14 @@
 
 @media (max-width: 767px) {
 .insta{
-  width: 60px;
-  height: 100px;
+  width: 50px;
+  height: 90px;
   margin-bottom: 10px;
   bottom: 60px;
 }
 .whats{
-  width: 60px;
-  height: 100px;
+  width: 50px;
+  height: 90px;
   bottom: 1px;
 }
 }

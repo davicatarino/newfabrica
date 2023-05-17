@@ -1,0 +1,12 @@
+.title {
+  font-family: Alesand, serif;
+}
+.subTitle {
+  font-family: MadelynFill, serif;
+}
+.brilho2 {
+  text-shadow: 0 0 24px #e51ab0, 0 0 50px #6b10ff, 0 0 20px #c706e0;
+}
+.scroll-link {
+  cursor: pointer;
+}

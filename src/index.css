@@ -11,6 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'MadelynFill';
+  src: local('MadelynFill'),
+    url(./fonts/Madelyn/MadelynFill.otf) format('OpenType');
+}
+@font-face {
+  font-family: 'Alesand';
+  src: local('Alesand'),
+    url(./fonts/Alesand/Alesand-Extra-Bold.otf) format('OpenType');
+}
 
 @tailwind base;
 @tailwind components;

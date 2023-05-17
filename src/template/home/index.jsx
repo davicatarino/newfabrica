@@ -1,5 +1,4 @@
 import Cards from '../../componenents/loopings/cards';
-import Carousel from '../../componenents/loopings/carousel';
 import Promo from '../../componenents/promo/promo';
 import Fliper from '../../componenents/loopings/fliped';
 import Team from '../../componenents/section/team';
@@ -19,7 +18,7 @@ export default function Home() {
       <Cards />
       <Fliper />
       <Team />
-      <Carousel />
+
       <Footer />
       <Flutuante/>
       <ScrollTop/>

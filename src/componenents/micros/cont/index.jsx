@@ -4,7 +4,7 @@ import './styles.css';
 export default function Cont1({ direction, img, title, desc }) {
   return (
     <section className="neum2">
-      <div className="w-[100%] h-full flex z-1 items-center justify-center pt-[46px] sm:px-[100px] px-[20px] flex-col  ">
+      <div className="w-[100%] gap-5 h-full flex z-1 items-center justify-center pt-[46px] sm:px-[100px] px-[20px] flex-col  ">
         <Title
           title={'Aumente a Autoridade do Seu Negócio com um Site Profissional'}
         />
@@ -23,7 +23,7 @@ export default function Cont1({ direction, img, title, desc }) {
           </div>
 
           <div className="mx-auto px-8 max-w-md text-center flex-col lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-2xl  tracking-tight text-white sm:text-4xl">
               {title}
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">{desc}</p>

@@ -21,11 +21,11 @@ export const Revel = ({ children, width = 'fit-content' }: Props) => {
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 1, delay: 0.5 }}
+        transition={{ duration: 1, delay: 0.2 }}
       >
         {children}
       </motion.div>
-      <motion.div
+ {/*      <motion.div
         variants={{
           hidden: { left: 0 },
           visible: { left: '100%' },
@@ -42,7 +42,7 @@ export const Revel = ({ children, width = 'fit-content' }: Props) => {
           backgroundColor: 'violet',
           zIndex: 20,
         }}
-      />
+      /> */}
     </div>
   );
 };
